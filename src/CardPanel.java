@@ -26,6 +26,7 @@ class CardPanel extends JPanel {
                 g.fillRect(x, y, c.getCardSize(), c.getCardSize());
                 g.setColor(c.getBorderColor()); // Farbe des Rahmens
                 g.drawRect(x, y, c.getCardSize(), c.getCardSize());
+                g.setColor(c.getTextColor());
                 g.drawString(c.getContent(), x + c.getCardSize()/2, y + c.getCardSize()/2);
                 cardNumber++;
             }

@@ -6,15 +6,27 @@ public class Card {
 	private int cardSize;
 	private Color cardColor;
 	private Color borderColor;
+	private Color textColor;
 	private String content;
 	
     
     public Card(String content) {
     	this.cardSize = 80;
     	this.cardColor = Color.gray;
-    	this.borderColor = Color.black;
+    	this.borderColor = Color.red;
+    	this.textColor = Color.white;
     	this.content = content;
     }
+
+
+	public Color getTextColor() {
+		return textColor;
+	}
+
+
+	public void setTextColor(Color textColor) {
+		this.textColor = textColor;
+	}
 
 
 	public int getCardSize() {
