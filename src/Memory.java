@@ -8,6 +8,10 @@ public class Memory {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 400);
         
+        // Erstellen des Panels, auf dem das Gitter angezeigt wird
+        CardPanel panel = new CardPanel();
+        frame.add(panel);
+        
         // Fenster sichtbar machen
         frame.setVisible(true);
     }
