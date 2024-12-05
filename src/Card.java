@@ -1,5 +1,4 @@
 import java.awt.Color;
-import java.awt.Graphics;
 
 public class Card {
     // Größe eines einzelnen Cards
